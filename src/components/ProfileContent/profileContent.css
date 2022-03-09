@@ -1,0 +1,92 @@
+.profileContentContainer {
+	flex: 10;
+	display: flex;
+	flex-direction: column;
+}
+
+.profileContentHeader {
+	display: flex;
+	flex-direction: column;
+	height: calc(60vh - 50px);
+	margin-bottom: 50px;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.profileCover {
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+.profileBanner {
+	position: relative;
+	width: 100%;
+	height: 80%;
+	margin-bottom: 65px;
+}
+
+.profileHeaderPicture {
+	width: 150px;
+	height: 150px;
+	border: 5px solid white;
+	border-radius: 50%;
+	object-fit: cover;
+	position: absolute;
+	top: calc(50% + 50px);
+	left: calc(50% - 75px);
+}
+
+.profileCoverName {
+	font-weight: bold;
+}
+.profileCoverDesc {
+	color: #999;
+}
+
+.profileContentBody {
+	display: flex;
+	flex-direction: row;
+}
+
+.profileBodyUser {
+	flex: 4;
+	padding: 20px 20px 0 0;
+	display: flex;
+	flex-direction: column;
+}
+
+.profileBodyUserInfo {
+	margin-bottom: 30px;
+	margin-top: 20px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-around;
+	height: 120px;
+}
+
+.profileBodyUserInfo h2 {
+	font-size: 1.4rem;
+}
+
+.profileBodyUserInfo span {
+	color: #555;
+}
+
+.profileBodyUserFriends {
+	margin-top: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	justify-content: space-between;
+}
+.profileBodyFriend {
+	width: 30%;
+	margin-bottom: 20px;
+}
+
+.profileBodyFriend span {
+	font-size: 1.1rem;
+	font-weight: bold;
+	text-decoration: none;
+	color: black;
+}

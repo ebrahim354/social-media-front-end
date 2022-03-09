@@ -1,0 +1,86 @@
+.rightbar {
+	flex: 3.5;
+}
+
+.rightbarWrapper {
+	padding: 5px;
+	display: flex;
+	flex-direction: column;
+}
+
+.rightbarEvent {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	margin-bottom: 20px;
+	padding-top: 10px;
+}
+.rightbarEvent img {
+	width: 50px;
+	height: 50px;
+	margin-right: 10px;
+}
+
+.rightbarEventText {
+	color: #777;
+}
+
+.rightbarEventText b {
+	color: black;
+	font-weight: bold;
+}
+
+.rightbarAd {
+	margin-bottom: 20px;
+}
+
+.rightbarAd img {
+	border-radius: 10px;
+}
+
+.rightbarOnlineFriends {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+
+.onlineFriendsList {
+	list-style: none;
+	display: flex;
+	flex-direction: column;
+}
+
+.onlineFriendsItem {
+	margin: 10px 0;
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+}
+
+.onlineFriendsImgWrapper {
+	position: relative;
+	margin: 0 10px 0 0;
+}
+
+.isOnlineAlert {
+	background-color: #090;
+	width: 12px;
+	height: 12px;
+	border: solid 1px white;
+	border-radius: 50%;
+	position: absolute;
+	top: 0;
+	right: -2px;
+}
+
+.onlineFriendsImgWrapper img {
+	width: 32px;
+	height: 32px;
+	border-radius: 50%;
+	object-fit: cover;
+}
+
+.onlineFriendName {
+	font-size: 1.1rem;
+	font-weight: bold;
+}
